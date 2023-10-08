@@ -1,0 +1,27 @@
+body {
+    background: #56d1d1;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-image: url('https://st3.depositphotos.com/2165517/36864/i/450/depositphotos_368649102-stock-photo-party-birthday-blue-background-holiday.jpg');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 4px;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+img.birthday {
+    max-height: 40vh;
+    margin: 0 auto; 
+}
